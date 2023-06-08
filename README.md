@@ -4,7 +4,7 @@ Course Waitlists
 Link to Project-
 https://github.com/Calvineng72/Course-Waitlists.git
 ## Project Details
-Course Waitlists is a project dedicated to solving issues related to course registration, focusing specifically on course waitlists. In order to reduce stress, our web application allows students to join and leave course waitlists if they are unable to register for a class. Students can view their position relative to other students, and as an additional feature, have the option to receive course recommendations. Our algorithm suggests courses based on the waitlists of other students interested in the same class. Student info is stored in the backend and is accessed with SQLite, while our server is run with Spark. Only users with a brown.edu email address may use the waitlist, as Google Authentication is required. 
+Course Waitlists is a project dedicated to solving issues related to course registration, focusing specifically on course waitlists. In order to reduce stress, our web application allows students to join and leave course waitlists if they are unable to register for a class. Students can view their position relative to other students, and as an additional feature, have the option to receive course recommendations. Our algorithm suggests courses based on the waitlists of other students interested in the same class. Student info is stored in the backend and is accessed with SQLite, while our server is run with Spark. Only users with a brown.edu email address may use the waitlist, as Google Authentication is required. Integration testing is done with mocks, and tests can be found for the backend server.
 <p align="center">
   <img src="project_screenshots/home_page.png"
        alt="Home Page"
@@ -58,8 +58,3 @@ One of first choices we had to make as we were narrowing the scope of our projec
 
 ## Errors and Bugs
 - Button has to be pressed twice to remove someone or join the queue    
-
-## Testing
-Backend
-- Unit testing
-- Integration testing (with mocks)
