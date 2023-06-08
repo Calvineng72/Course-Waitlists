@@ -1,9 +1,11 @@
-# Course Waitlists
-ahudda1-ceng4-ssompal1-tlynn1 team's term-project repo
-
-REPO LINK: https://github.com/cs0320-f2022/term-project-ahudda1-ceng4-ssompal1-tlynn1
-
-## DESIGN CHOICES
+Course Waitlists
+=============
+### Authors: Calvin Eng, Aanya Hudda, Tabitha Lynn, Shravya Sompalli
+Link to Project-
+https://github.com/Calvineng72/Course-Waitlists
+## Project Details
+Course Waitlists is a project dedicated to solving issues related to course registration, focusing specifically on course waitlists. In order to reduce stress, our web application allows students to join and leave course waitlists if they are unable to register for a class. Students can view their position relative to other students, and as an additional feature, have the option to receive course recommendations. Our algorithm suggests courses based on the waitlists of other students interested in the same class. 
+## Design Choices
 
 FRONTEND
 On the frontend, we decided to implement Next.js as the main framework for our app. Next.js provided us with in-depth tutorials and examples for the frontend design that we were hoping to achieve. We also wanted to learn how to use Next.js as a learning experience; it was really interesting to implement a framework that we haven't used before and learn what it's like to utilize online resources to teach ourselves. 
