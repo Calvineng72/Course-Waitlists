@@ -10,7 +10,7 @@ On the frontend, we decided to implement Next.js as the main framework for our a
 
 We decided to implement Google Authentication into a sign in button instead of making it a first page that prevents you from entering the screen before you sign in. There was a couple of reasons for this choice, but one of them was simply being able to see the page whether or not you've logged in now. In retrospect, we did not fully consider the security of this choice; anyone, regardless of if they go to Brown or not, can see the every class and the waitlists. However, if we wanted to be able to put up the website and link it in our resumes, having a site available to everyone would be beneficial. 
 
-We also chose to use Next Auth instead of Google OAuth. Although both were attempted, Next Auth provided the best built-in structure user authentication. This method of authentication also makes it verys simple to add in another authentication provider (i.e. Github). 
+We also chose to use Next Auth instead of Google OAuth. Although we attempted both, Next Auth provided the best built-in structure user authentication. This method of authentication also makes it verys simple to add in another authentication provider (i.e. Github). 
 
 For our front-end styles, we prioritized accessibility for users. The font we used, Verdana, is listed as one of the most accessible CSS font families. Additionally, we played close attention to the contrast of the colors to provide the most accessible user experience. That included a higher font-weight for the header, a non-white color when the class boxes are hovered over, white text against a blue background in each class, and a clear red X for removing yourself from the waitlist.  
 
