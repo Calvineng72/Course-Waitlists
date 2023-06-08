@@ -1,4 +1,4 @@
-# term-project-ahudda1-ceng4-ssompal1-tlynn1
+# Course Waitlists
 ahudda1-ceng4-ssompal1-tlynn1 team's term-project repo
 
 REPO LINK: https://github.com/cs0320-f2022/term-project-ahudda1-ceng4-ssompal1-tlynn1
@@ -20,7 +20,6 @@ In terms of the background, the biggest decision we made was to keep the waitlis
 
 One of first choices we had to make as we were narrowing the scope of our project was who our target user was. Originally we thought about having two different user profiles have different capabilties, but we decided that we wanted our main focus to be on the students. As students ourselves, we know firsthand the direct desires of students from a waitlsit app, so being able to implement the user experience for students would be much easier. Based on our cumulative knowledge and goals for the project, we decided to narrow the focus of the app to be student-facing. This meant that our backend database was hardcoded by us, with the understanding that if used in a real scenario, that would the equivalent of a professor being able to change people on the list at will.
 
-
 ## ERRORS AND BUGS
 - Button has to be pressed twice to remove someone or join the queue    
 
@@ -28,7 +27,6 @@ One of first choices we had to make as we were narrowing the scope of our projec
 Backend
 - Unit testing
 - Integration testing (mocked)
-
 
 #### HOW TO
 To use our app, a developer must first start the server in the backend. To do so, open the term project in IntelliJ through the pom.xml. Then start the server by pressing the play button in the server class. The backend is now running and fetch calls from the frontend will be successful. To start the frontend, open the entire term project in VS code. Then type "npm run dev" into the terminal. Once it runs, the link "localhost:3000" will open the Waitlist App home page containing each class. The sign-in button on the top right of the header will allow access to joining the waitlists once signed in through a Brown email. A user can click on their desired class to see the current waitlist, and add themselves using the "Join Queue" button. If the user is already on the waitlist, clicking the red X will remove them the waitlist. 
